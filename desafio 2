@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02</title>
+</head>
+<body>
+    <div>
+        <h1 id="h1">Perfil de Maxwell</h1>
+        <img src="img/fotoperfil01.jpg" alt="fotoperfil">
+            <p>Mis datos son:</p>
+        <ul>
+            <li>Edad: 38 años</li>
+            <li>Nombre: Maxwell</li>
+            <li>Apellido: Basante</li>
+            <li>Correo: maxwellbasante@gmail.com</li>
+        </ul>
+        <hr>
+        <h2>Un poco sobre mi:</h2>
+        <p>Soy un curioso de la tecnología desde siempre, me gusta el constante cambio, la mejora continua y la búsqueda del porqué de las cosas que me motivan... Actualmente estoy estudiando Full Stack en el bootcamp de NUCBA porque quiero ampliar mis habilidades en programación y dedicarme pronto a desarrollar soluciones tecnológicas en un mundo donde profesionalmente estoy ansioso de reincorporarme.</p>
+    </div>
+    <hr>
+    <div>
+        <h2>Formulario de Contacto</h2>
+        <form action="">
+            <ol>
+                <li> <label for="name">Nombre: </label> <input type="text" id="name" placeholder="Ingresar Nombre (*)" style="width:250px" required></li>
+                <li> <label for="last">Apellido:</label> <input type="text" id="last" placeholder="Ingresar Apellido" style="width:250px"> </li>
+                <li> <label for="phone">Teléfono:</label> <input type="tel" id="phone" placeholder="Ingresar Número de Teléfono (*)" style="width:250px" required > </li>
+                <li> <label for="email">Coreo:</label> <input type="email" id="email" placeholder="Ingresar Correo Electrónico (*)" style="width:250px" required> </li>
+                <li> <label for="textarea">Consulta:</label> <textarea name="Consulta" id="textarea" cols="30" rows="10"></textarea required> </li>
+            </ol>
+            <input type="submit">
+            <input type="reset">
+            <br><hr>
+            <a href="#h1">Ir al inicio</a>
+        </form>
+    </div>
+</body>
+</html>
